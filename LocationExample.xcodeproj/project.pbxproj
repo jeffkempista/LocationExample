@@ -14,6 +14,7 @@
 		1FC0C0A11A1791DC00637745 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0C09F1A1791DC00637745 /* LaunchScreen.xib */; };
 		1FC0C0AD1A1791DC00637745 /* LocationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0C0AC1A1791DC00637745 /* LocationExampleTests.swift */; };
 		1FC0C0B81A17934B00637745 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC0C0B71A17934B00637745 /* CoreLocation.framework */; };
+		1FC0C0BB1A17AED900637745 /* CLAuthorizationStatusExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0C0BA1A17AED900637745 /* CLAuthorizationStatusExtras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1FC0C0AB1A1791DC00637745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC0C0AC1A1791DC00637745 /* LocationExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationExampleTests.swift; sourceTree = "<group>"; };
 		1FC0C0B71A17934B00637745 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1FC0C0BA1A17AED900637745 /* CLAuthorizationStatusExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLAuthorizationStatusExtras.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				1FC0C0961A1791DC00637745 /* AppDelegate.swift */,
+				1FC0C0BA1A17AED900637745 /* CLAuthorizationStatusExtras.swift */,
 				1FC0C0981A1791DC00637745 /* ViewController.swift */,
 				1FC0C09A1A1791DC00637745 /* Main.storyboard */,
 				1FC0C09D1A1791DC00637745 /* Images.xcassets */,
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC0C0991A1791DC00637745 /* ViewController.swift in Sources */,
+				1FC0C0BB1A17AED900637745 /* CLAuthorizationStatusExtras.swift in Sources */,
 				1FC0C0971A1791DC00637745 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LocationExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -358,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LocationExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
