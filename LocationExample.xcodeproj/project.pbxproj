@@ -13,6 +13,7 @@
 		1FC0C09E1A1791DC00637745 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0C09D1A1791DC00637745 /* Images.xcassets */; };
 		1FC0C0A11A1791DC00637745 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0C09F1A1791DC00637745 /* LaunchScreen.xib */; };
 		1FC0C0AD1A1791DC00637745 /* LocationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0C0AC1A1791DC00637745 /* LocationExampleTests.swift */; };
+		1FC0C0B81A17934B00637745 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC0C0B71A17934B00637745 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1FC0C0A61A1791DC00637745 /* LocationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC0C0AB1A1791DC00637745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC0C0AC1A1791DC00637745 /* LocationExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationExampleTests.swift; sourceTree = "<group>"; };
+		1FC0C0B71A17934B00637745 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC0C0B81A17934B00637745 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		1FC0C0881A1791DB00637745 = {
 			isa = PBXGroup;
 			children = (
+				1FC0C0B71A17934B00637745 /* CoreLocation.framework */,
 				1FC0C0931A1791DB00637745 /* LocationExample */,
 				1FC0C0A91A1791DC00637745 /* LocationExampleTests */,
 				1FC0C0921A1791DB00637745 /* Products */,
