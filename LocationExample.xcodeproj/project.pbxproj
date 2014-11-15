@@ -62,8 +62,8 @@
 		1FC0C0881A1791DB00637745 = {
 			isa = PBXGroup;
 			children = (
-				1FC0C0B71A17934B00637745 /* CoreLocation.framework */,
 				1FC0C0931A1791DB00637745 /* LocationExample */,
+				1FC0C0B91A17938D00637745 /* Frameworks */,
 				1FC0C0A91A1791DC00637745 /* LocationExampleTests */,
 				1FC0C0921A1791DB00637745 /* Products */,
 			);
@@ -114,6 +114,14 @@
 				1FC0C0AB1A1791DC00637745 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FC0C0B91A17938D00637745 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0C0B71A17934B00637745 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
